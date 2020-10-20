@@ -55,7 +55,7 @@ class _DepensesState extends State<Depenses> {
           padding: const EdgeInsets.all(50.0),
           decoration: new BoxDecoration(
             shape: BoxShape.circle,
-            color: Colors.pink.shade200,
+            color: Colors.teal.shade600,
           ),
           child: new Text(_count.toString(),
               style: new TextStyle(

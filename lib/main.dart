@@ -31,19 +31,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int index = 0;
 
-  Map<String, bool> values = {
-    'Lait' : false,
-    'Tomates' : false,
-    'Céréales' : false,
-    "Bouteille d'eau" : false,
-    'Café' : false,
-    'Pain' : false,
-    'Blanc de dinde' : false,
-    'POULET' : true,
-    'Glaces' : false,
-    'Pâtes' : false
-  };
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
